@@ -1,0 +1,140 @@
+/* line 21, ../sass/styles.scss */
+h1 {
+  background: grey;
+  color: violet;
+  border: 5px solid black;
+  width: 50%;
+  float: none;
+  font-size: 1.5em;
+  -webkit-box-shadow: 2px 2px 20px blue;
+  -moz-box-shadow: 2px 2px 20px blue;
+  box-shadow: 2px 2px 20px blue;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  z-index: -1;
+}
+/* line 33, ../sass/styles.scss */
+h1:hover {
+  width: 60%;
+  background-color: yellow;
+  font-size: 1.1em;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-transform: scale(1.4) rotate(1deg) translate(50px, 0px) skew(2deg, 1deg);
+  -moz-transform: scale(1.4) rotate(1deg) translate(50px, 0px) skew(2deg, 1deg);
+  -ms-transform: scale(1.4) rotate(1deg) translate(50px, 0px) skew(2deg, 1deg);
+  -o-transform: scale(1.4) rotate(1deg) translate(50px, 0px) skew(2deg, 1deg);
+  transform: scale(1.4) rotate(1deg) translate(50px, 0px) skew(2deg, 1deg);
+  z-index: 200;
+}
+
+/* line 45, ../sass/styles.scss */
+.main {
+  background-color: #aaa;
+  font-size: 25px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background: url("img/qmark.png") #eeeeee;
+  -moz-border-image: url("../img/qmark.png") 330% 10000% 120% stretch;
+  -webkit-border-image: url("../img/qmark.png") 330% 10000% 120% stretch;
+  -webkit-border-image: url("../img/qmark.png") 330% 10000% 120% stretch;
+  -o-border-image: url("../img/qmark.png") 330% 10000% 120% stretch;
+  border-image: url("../img/qmark.png") 330% 10000% 120% stretch;
+  animation: myfirst 5s;
+  -moz-animation: myfirst 5s;
+  /* Firefox */
+  -webkit-animation: myfirst 5s;
+  /* Safari and Chrome */
+  -o-animation: myfirst 5s;
+  /* Opera */
+  @-webkit-keyframes firstkey {
+    /* line 59, ../sass/styles.scss */
+    0% {
+      background-color: #ffcc33;
+    }
+
+    /* line 62, ../sass/styles.scss */
+    50% {
+      background-color: #000;
+    }
+
+    /* line 65, ../sass/styles.scss */
+    100% {
+      background-color: #ffcc33;
+    }
+}
+
+  @-moz-keyframes firstkey {
+    /* line 59, ../sass/styles.scss */
+    0% {
+      background-color: #ffcc33;
+    }
+
+    /* line 62, ../sass/styles.scss */
+    50% {
+      background-color: #000;
+    }
+
+    /* line 65, ../sass/styles.scss */
+    100% {
+      background-color: #ffcc33;
+    }
+}
+
+  @-ms-keyframes firstkey {
+    /* line 59, ../sass/styles.scss */
+    0% {
+      background-color: #ffcc33;
+    }
+
+    /* line 62, ../sass/styles.scss */
+    50% {
+      background-color: #000;
+    }
+
+    /* line 65, ../sass/styles.scss */
+    100% {
+      background-color: #ffcc33;
+    }
+}
+
+  @keyframes firstkey {
+    /* line 59, ../sass/styles.scss */
+    0% {
+      background-color: #ffcc33;
+    }
+
+    /* line 62, ../sass/styles.scss */
+    50% {
+      background-color: #000;
+    }
+
+    /* line 65, ../sass/styles.scss */
+    100% {
+      background-color: #ffcc33;
+    }
+}
+
+}
+
+/* line 71, ../sass/styles.scss */
+li.bands {
+  text-transform: uppercase;
+  font: verdana 30px green;
+  border: 2px solid red;
+  display: inline-block;
+  padding: 0 5px;
+  background-color: lightgrey;
+}
