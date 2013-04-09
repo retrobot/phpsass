@@ -18,6 +18,15 @@
 
 $h1width: 50%;
 
+body {
+	background-color: #aaa;
+}
+
+.centeros {
+	width: 85%;
+	margin: 0 auto;
+}
+
 h1 {
 	background: grey;
 	color: violet;
@@ -25,6 +34,10 @@ h1 {
 	width: $h1width;
 	float: none;
 	font-size:1.5em;
+	padding: 0 2%;
+	text-align: center;
+	font-family: arial, sans-serif;
+	text-transform:uppercase;
 	@include box-shadow(2px 2px 20px blue);
 	@include transition(all .4s ease-in-out);
 	@include border-radius(2px);

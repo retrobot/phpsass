@@ -1,4 +1,15 @@
 /* line 21, ../sass/styles.scss */
+body {
+  background-color: #aaa;
+}
+
+/* line 25, ../sass/styles.scss */
+.centeros {
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* line 30, ../sass/styles.scss */
 h1 {
   background: grey;
   color: violet;
@@ -6,6 +17,10 @@ h1 {
   width: 50%;
   float: none;
   font-size: 1.5em;
+  padding: 0 2%;
+  text-align: center;
+  font-family: arial, sans-serif;
+  text-transform: uppercase;
   -webkit-box-shadow: 2px 2px 20px blue;
   -moz-box-shadow: 2px 2px 20px blue;
   box-shadow: 2px 2px 20px blue;
@@ -20,7 +35,7 @@ h1 {
   border-radius: 2px;
   z-index: -1;
 }
-/* line 33, ../sass/styles.scss */
+/* line 46, ../sass/styles.scss */
 h1:hover {
   width: 60%;
   background-color: yellow;
@@ -38,7 +53,7 @@ h1:hover {
   z-index: 200;
 }
 
-/* line 45, ../sass/styles.scss */
+/* line 58, ../sass/styles.scss */
 .main {
   background-color: #aaa;
   font-size: 25px;
@@ -60,68 +75,68 @@ h1:hover {
   -o-animation: myfirst 5s;
   /* Opera */
   @-webkit-keyframes firstkey {
-    /* line 59, ../sass/styles.scss */
+    /* line 72, ../sass/styles.scss */
     0% {
       background-color: #ffcc33;
     }
 
-    /* line 62, ../sass/styles.scss */
+    /* line 75, ../sass/styles.scss */
     50% {
       background-color: #000;
     }
 
-    /* line 65, ../sass/styles.scss */
+    /* line 78, ../sass/styles.scss */
     100% {
       background-color: #ffcc33;
     }
 }
 
   @-moz-keyframes firstkey {
-    /* line 59, ../sass/styles.scss */
+    /* line 72, ../sass/styles.scss */
     0% {
       background-color: #ffcc33;
     }
 
-    /* line 62, ../sass/styles.scss */
+    /* line 75, ../sass/styles.scss */
     50% {
       background-color: #000;
     }
 
-    /* line 65, ../sass/styles.scss */
+    /* line 78, ../sass/styles.scss */
     100% {
       background-color: #ffcc33;
     }
 }
 
   @-ms-keyframes firstkey {
-    /* line 59, ../sass/styles.scss */
+    /* line 72, ../sass/styles.scss */
     0% {
       background-color: #ffcc33;
     }
 
-    /* line 62, ../sass/styles.scss */
+    /* line 75, ../sass/styles.scss */
     50% {
       background-color: #000;
     }
 
-    /* line 65, ../sass/styles.scss */
+    /* line 78, ../sass/styles.scss */
     100% {
       background-color: #ffcc33;
     }
 }
 
   @keyframes firstkey {
-    /* line 59, ../sass/styles.scss */
+    /* line 72, ../sass/styles.scss */
     0% {
       background-color: #ffcc33;
     }
 
-    /* line 62, ../sass/styles.scss */
+    /* line 75, ../sass/styles.scss */
     50% {
       background-color: #000;
     }
 
-    /* line 65, ../sass/styles.scss */
+    /* line 78, ../sass/styles.scss */
     100% {
       background-color: #ffcc33;
     }
@@ -129,7 +144,7 @@ h1:hover {
 
 }
 
-/* line 71, ../sass/styles.scss */
+/* line 84, ../sass/styles.scss */
 li.bands {
   text-transform: uppercase;
   font: verdana 30px green;

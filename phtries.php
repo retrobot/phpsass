@@ -6,7 +6,7 @@
 	<title>Info blog</title>
 </head>
 <body>
-
+<div class="centeros">
 <h1> Infashion Online Blog</h1>
 <?php echo('<h1>Latest shoe styles</h1>'); ?>
 <!-- Next thing <div class="main"> Hello <br /> Helloo </div> -->
@@ -333,6 +333,6 @@ else {
 
 ?>
 
-
+</div> <!-- centeros -->
 </body>
 </html>
