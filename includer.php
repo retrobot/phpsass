@@ -5,7 +5,7 @@ $page['title'] = 'Product Catalog';
 /* once the file is imported, the variables set above will become available to it */
 
 // include the page header
-include('headers.php');
+include_once('header.php');
 ?>
 
 BLA BLA BLA
@@ -13,4 +13,5 @@ BLA BLA BLA
 <?php
 // include the page footer
 include('footer.php');
+include_once('header.php');
 ?>
