@@ -333,6 +333,37 @@ else {
 
 ?>
 
+<?php 
+
+$tex = 20;
+function myFunct($prtvr) {
+    $wr = $prtvr * 2;
+    echo $wr.'!!!! Hi W';
+
+    return $wr - 5 ;
+};
+
+$obl = myFunct($tex);
+echo $obl;
+
+$tablo = array('bo', 'ba', 'be', 'bae');
+foreach ($tablo as $key => $value) {
+    $tablo[$key] = myFunct($key);
+}
+
+print_r($tablo);
+
+
+?>
+
+<?php 
+$v1 = 'firone';
+$v2 = 'secone';
+
+echo "before  $v1 somethging";
+// print "$v1";
+
+?>
 </div> <!-- centeros -->
 </body>
 </html>
